@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuerdos y Momentos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Recuerdos y Momentos con mi Chiqui</h1>
+        <p>Un espacio para revivir los mejores momentos contigo ❤️</p>
+    </header>
+
+    <section class="moment-section">
+        <h2>Salida a Cedritos - 10 de Septiembre</h2>
+        <p class="moment-description">Fue nuestra segunda salida, pero la primera vez que nos tomamos fotos,
+            ese día también fue especial el ver como reíamos, como brillaban tus ojos y ese mismo día llegó Luci a
+            nuestras vidas.
+        </p>
+        <div class="media-container">
+            <div class="media-item">
+                <img src="img/Cedritos/Cedritos_1.jpg" alt=" ">
+                <p>Me encantaban nuestros gestos</p>
+            </div>
+            <div class="media-item">
+                <img src="img/Cedritos/Cedritos_2.jpg" alt=" ">
+                <p>Me gusto por como se veían tus ojitos</p>
+            </div>
+            <div class="media-item">
+                <video controls>
+                    <source src="img/Cedritos/Vid_Cedritos_1.mp4" type="video/mp4">
+                    Tu navegador no soporta videos.
+                </video>
+                <p>Me gusta ver como cambio tu carita al darte el besito en la mejilla</p>
+            </div>
+            <div class="media-item">
+                <video controls>
+                    <source src="img/Cedritos/Vid_Luci.mp4" type="video/mp4">
+                    Tu navegador no soporta videos.
+                </video>
+                <p>Mi chiqui con nuestra pequeña Luci</p>
+            </div>
+            <div class="media-summary">
+                En conclusión, fue un día bastante lindo recorrimos todo el Centro comercial,
+                vimos juguetes, almorzamos, comimos helado y no sentimos pasar el tiempo.
+            </div>            
+        </div>
+    </section>
+
+    <section class="moment-section">
+        <h2>Salida SantaFe - 16 de Septiembre</h2>
+        <p class="moment-description">La cuarta salida fue al CC SantaFe la idea principal era ir a Cine,
+            pero terminamos comiendo algo que nos encanta a los dos Franuí y Hamburguesa, recorrimos el CC 
+            de igual forma, reímos, miramos, nos abrazamos, caminamos, y demás cosas, pero lo importante es
+            que los dos la pasamos genial, cada salida supera la anterior.
+        </p>
+        <div class="media-container">
+            <div class="media-item">
+                <img src="img/SantaFe/SantaFe_1.jpg" alt=" ">
+                <p>Fue la foto que más nos gusto</p>
+            </div>
+            <div class="media-item">
+                <img src="img/SantaFe/SantaFe_2.jpg" alt=" ">
+                <p>Este es el filtro que más le gusta a mi chiqui</p>
+            </div>
+            <div class="media-item">
+                <img src="img/SantaFe/SantaFe_3.jpg" alt=" ">
+                <p>Aquí como siempre nos veíamos lindos</p>
+            </div>
+            <div class="media-item">
+                <video controls>
+                    <source src="img/SantaFe/Vid_SantaFe_1.mp4" type="video/mp4">
+                    Tu navegador no soporta videos.
+                </video>
+                <p>nuestos gestos son los que más me encantan</p>
+            </div>
+            <div class="media-summary">
+                Fue un día bastante lindo con miradas genuinas, abrazos y risas, otro día en el
+                que disfrutamos la presencia de cada uno, cada que veo el brillo de tus ojos me enamoro más 
+                y agradezco a la vida que tu llegaras, gracias por lo que hemos vivido.
+            </div>
+        </div>
+    </section>
+
+    <section class="moment-section">
+        <h2>Momentos Especiales</h2>
+        <div class="media-container">
+            <div class="media-item video-item">
+                <video controls>
+                    <source src="videos/video_momento1.mp4" type="video/mp4">
+                    Tu navegador no soporta videos.
+                </video>
+                <p>Un momento inolvidable</p>
+            </div>
+            <div class="media-item video-item">
+                <video controls>
+                    <source src="videos/video_momento2.mp4" type="video/mp4">
+                    Tu navegador no soporta videos.
+                </video>
+                <p>Risas y diversión</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal para ver videos en grande -->
+    <div id="videoModal" class="modal">
+        <span class="close">&times;</span>
+        <video id="modalVideo" controls>
+            <source src="" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Modal para ver imágenes en grande -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img id="modalImage" src="" alt="Imagen en tamaño grande">
+    </div>
+
+    <footer>
+        <p>Con mucho amor 💖</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
